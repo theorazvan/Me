@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="list" id="list">
+	<SimpleField name="Id" type="string"></SimpleField>
+	<SimpleField name="Lat" type="string"></SimpleField>
+	<SimpleField name="Lng" type="string"></SimpleField>
+	<SimpleField name="Photo" type="string"></SimpleField>
+	<SimpleField name="Link" type="string"></SimpleField>
+</Schema>
+<Folder><name>list</name>
+  <Placemark>
+	<name>Metasequoia glyptostroboides</name>
+	<description>Sistematica</description>
+	<ExtendedData><SchemaData schemaUrl="#list">
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Lat">47.1863736192</SimpleData>
+		<SimpleData name="Lng">27.5576931392</SimpleData>
+		<SimpleData name="Photo">&lt;img src=&quot;/home/dabija/Desktop/Maps/Images/Sistematica/metasequoia_glytostroboides1.jpg&quot;&gt;</SimpleData>
+		<SimpleData name="Link">&lt;a href=https://en.wikipedia.org/wiki/Metasequoia_glyptostroboides&gt;Metasequoia glyptostroboides&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<name>Thuja occidentalis</name>
+	<description>Sistematica</description>
+	<ExtendedData><SchemaData schemaUrl="#list">
+		<SimpleData name="Id">2</SimpleData>
+		<SimpleData name="Lat">47.1860455013</SimpleData>
+		<SimpleData name="Lng">27.5570494091</SimpleData>
+		<SimpleData name="Photo"></SimpleData>
+		<SimpleData name="Link"></SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+</Folder>
+</Document></kml>
